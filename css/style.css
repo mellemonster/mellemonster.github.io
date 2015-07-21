@@ -1,0 +1,18 @@
+h1, h2 {
+  font-family: sans-serif;
+  font-size: 90x;
+  text-align: center;
+  color: #2C8FFF;
+}
+
+h2 {
+  font-size: 50x;
+}
+
+p {
+  font-family: serif;
+  font-size: 30x
+  line-height: 2;
+  margin-left: 10%;
+  margin-right: 10%;
+}
