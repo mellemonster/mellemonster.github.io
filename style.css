@@ -1,5 +1,9 @@
-h1, h2 {
-  font-family: sans-serif;
+.jumbotron {
+  color: FF6600
+}
+
+h1 {
+  font-family: serif;
   font-size: 90x;
   text-align: center;
   color: #2C8FFF;
