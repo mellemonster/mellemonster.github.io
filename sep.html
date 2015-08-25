@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jeremy @ BxC</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet"
     <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,8 +18,9 @@
 </head>
 
 <body>
+  <!-- Fixed Navagation -->
   <nav class="navbar-fixed-top navbar-inverse">
-  <div class="container-fluid">
+  <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
@@ -41,20 +42,14 @@
     </div>
   </div>
 </nav>
+<div class="span4">...</div>
+<div class="span4">...</div>
+<div class="span4">...</div>
 
-  <div class="jumbotron">
-    <div class="row spacer">
-      <div class="span4">...</div>
-      <div class="span4">...</div>
-      <div class="span4">...</div>
-    <h1 class="text-center">SEP</h1>
-    <p class="text-center">We can make anything with computers!!</p>
-      <button type="button" class="btn btn-primary btn-lg center-block">Syllabus</button>
-  </div>
 
-  <hr>
-
-    <div class="row">
+<!-- Sidebar Navagation -->
+<div class="container">
+  	<div class="row">
       <div class="col-sm-2">
         <div class="sidebar-nav">
           <div class="navbar navbar-default" role="navigation">
@@ -65,21 +60,123 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <span class="visible-xs navbar-brand"> SEP Units</span>
+              <span class="visible-xs navbar-brand">SEP Pages</span>
             </div>
             <div class="navbar-collapse collapse sidebar-navbar-collapse">
               <ul class="nav navbar-nav">
-                <li><a href="#"></span> Unit 1</a></li>
-                <li><a href="#"></span> Unit 2</a></li>
-                <li><a href="#"></span> Unit 3</a></li>
-                <li><a href="#"></span> Unit 4</a></li>
+                <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">SEP 9
+                    <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Web Design</a></li>
+                      <li><a href="#">Javascript</a></li>
+                      <li><a href="#">Scratch</a></li>
+                      <li><a href="#">Python</a></li>
+                      <li><a href="#">Physical Computing</a></li>
+                    </ul>
+                  </li>
+                  <li class="divider"></li>
+                  <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">SEP 10
+                      <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Processing</a></li>
+                        <li><a href="#">HTML-CSS-JS</a></li>
+                        <li><a href="#">Data</a></li>
+                        <li><a href="#">Networks</a></li>
+                        <li><a href="#">Touch Development</a></li>
+                      </ul>
+                    </li>
+                <li class="divider"></li>
+                <li><a href="#">Portfolios</a></li>
               </ul>
             </div><!--/.nav-collapse -->
           </div>
         </div>
       </div>
-      <div class="col-sm-10">
-        Main content goes here
+
+<!--Information Columns -->
+      <div class="col-sm-3 hidden-xs">
+        <div id="midCol">
+          <div class="well">
+          		<img class="img-responsive center-block" src="http://i908.photobucket.com/albums/ac289/mellemonster/mellema.xyz_zpsa0uut8gv.png">
+              <p>Jeremy Mellema is a social studies teacher at Bronx Compass High School.</div>
+          <div class="well">
+            <h3>This Week</h3>
+            <h4>SEP 9</h4>
+            <p>You will find the work due this week here</p>
+            <h4>SEP 10</h4>
+            <p>You will find the work due this week here</p>
+          </div>
+          <div class="well">
+            <h3>Next Project</h3>
+            <h4>SEP 9</h4>
+            <p>You will find the next project due here</p>
+            <h4>SEP 10</h4>
+            <p>You will find the next project due here</p>
+          </div>
+          <div class="well">
+            <h3>Completed Projects</h3>
+            <h4>SEP 9</h4>
+            <p>You will find the work we finished here</p>
+            <h4>SEP 10</h4>
+            <p>You will find the work we finished here</p>
+          </div>
+        </div>
+      </div>
+
+  <!--Main Content Column -->
+      <div class="col-sm-7">
+          <div class="row">
+            <div class="col col-sm-12">
+              <div class="jumbotron">
+                <div class="row spacer">
+                  <h1 class="text-center">BxC SEP</h1>
+                  <p class="text-center">We Can Make Anything with Computers!</p>
+                  <div class="row spacer">
+                    <div class="span4"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        	<hr>
+          <div class="row">
+            <div class="col-sm-8">
+              <h2>SEP 9</h2>
+              <p>You will learn and start to master these tools and languages this year!
+                <ul>
+                  <li>Scratch</li>
+                  <li>Python</li>
+                  <li>GameStar</li>
+                  <li>Circuits</li>
+                  <li>Arduino</li>
+                  <li>Web Design</li>
+                </ul>
+              </p>
+            </div>
+            <div class="col-sm-4">
+              <img class="img-responsive" src="data:image/png;base64,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">
+            </div>
+          </div>
+        <hr>
+          <div class="row">
+            <div class="col-sm-4">
+              <img class="img-responsive" src="data:image/png;base64,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">
+            </div>
+            <div class="col-sm-8">
+              <h2>SEP 10</h2>
+              <p>You will learn and start to master these tools and languages this year!
+                <ul>
+                  <li>Processing</li>
+                  <li>HTML-CSS-JS</li>
+                  <li>Databases</li>
+                  <li>Networks</li>
+                  <li>Touch Development</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+  <hr>
       </div>
     </div>
 
